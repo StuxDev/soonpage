@@ -5,6 +5,12 @@ All notable changes to Soonpage are documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/) (MAJOR.MINOR.PATCH).
 
+## v1.0.1
+
+### Changed
+
+- Heading now reads "This service and/or website", since this page is also reused when the Stux.Dev website itself is coming soon, not just a service
+
 ## v1.0.0
 
 ### Added
