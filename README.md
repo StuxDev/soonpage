@@ -2,7 +2,7 @@
   <picture><source media="(prefers-color-scheme: dark)" srcset="https://global.media.stux.dev/logo-light.png"><source media="(prefers-color-scheme: light)" srcset="https://global.media.stux.dev/logo-dark.png"><img src="https://global.media.stux.dev/logo-dark.png" height="100" alt="Stux.Dev Logo"></picture>
 </p>
 
-# Coming Soon Page
+# Stux.Dev Soonpage
 
 A clean and simple coming soon page for Stux.Dev.
 
@@ -16,6 +16,7 @@ This repository contains a lightweight HTML page designed to let users know a St
 - ⚡ Lightweight and fast-loading
 - 🎨 Ready to customize
 - 📱 Responsive design
+- ⚖️ Boring Legal Stuff pages (`legal.html` and `legal/`) and a changelog page (`changelog.html`)
 - 🚀 Deployed at [soonpage.stux.dev](https://soonpage.stux.dev)
 
 ## Getting Started
@@ -25,7 +26,7 @@ This repository contains a lightweight HTML page designed to let users know a St
    git clone https://github.com/StuxDev/soonpage.git
    ```
 
-2. Open `index.html` in your browser or deploy to your hosting provider
+2. Run `./dev-server.sh [port]` (or `dev-server.bat [port]` on Windows) and open `http://127.0.0.1:8000`, or deploy to your hosting provider
 
 ## Customization
 
@@ -51,7 +52,7 @@ Run `bash tests/version.sh` and `bash tests/site.sh` (Python 3.8+, no dependenci
 
 ## License
 
-This project is open source and available for use and modification.
+This project is open source and available for use and modification. Copyright © 2026 Stux.Group.
 
 ---
 
