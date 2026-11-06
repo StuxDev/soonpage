@@ -4,6 +4,13 @@ All notable changes to Stux.Dev Soonpage are documented here.
 
 Each release's sections come in this order: Added, Changed, Fixed, Removed, Security, Deprecated. This project uses [Date Versioning](https://datevers.ing) since v26.10.23 (`YY.MM.DD`, the UTC release date, with `-1`, `-2`… for later releases the same day); earlier releases used [Semantic Versioning](https://semver.org/).
 
+## v26.11.06-1
+
+### Fixed
+
+- CI's HTML check passes again. The validator rejected the colon in the Discord preview's `id="discord:component-embed"`
+  (the ID Discord looks for), so `.htmlvalidate.json` now allows relaxed IDs, as Stux.Dev Servicepage's already does.
+
 ## v26.11.06
 
 ### Changed
